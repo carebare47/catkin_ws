@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+  <name>mrp2_simulator</name>
+  <version>0.2.3</version>
+  <description>Simulation-related packages for MRP2</description>
+  <maintainer email="akifhno@gmail.com">Akif Hacinecipoglu</maintainer>
+  <license>BSD</license>
+
+  <author email="akifhno@gmail.com">Akif Hacinecipoglu</author>
+  <url type="website">http://wiki.ros.org/mrp2_simulator</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>mrp2_gazebo</run_depend>
+  <run_depend>mrp2_hardware_gazebo</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>mrp2_gazebo</name>
+  <version>0.2.3</version>
+  <description>Launch files and simulation files to run MRP2 in Gazebo.</description>
+  <maintainer email="akifhno@gmail.com">Akif Hacinecipoglu</maintainer>
+  <license>BSD</license>
+
+  <author email="akifhno@gmail.com">Akif Hacinecipoglu</author>
+  <url type="website">http://wiki.ros.org/mrp2_gazebo</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>mrp2_description</run_depend>
+  <run_depend>mrp2_hardware_gazebo</run_depend>
+  <run_depend>gazebo_ros</run_depend>
+
+</package>

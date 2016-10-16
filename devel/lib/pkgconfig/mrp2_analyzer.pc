@@ -1,0 +1,8 @@
+prefix=/home/tom/catkin_ws/devel
+
+Name: mrp2_analyzer
+Description: Description of mrp2_analyzer
+Version: 0.2.3
+Cflags: -I/home/tom/catkin_ws/src/mrp2_common/mrp2_analyzer/include
+Libs: -L/home/tom/catkin_ws/devel/lib 
+Requires: 

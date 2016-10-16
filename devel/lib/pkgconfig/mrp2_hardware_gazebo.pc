@@ -1,0 +1,8 @@
+prefix=/home/tom/catkin_ws/devel
+
+Name: mrp2_hardware_gazebo
+Description: Description of mrp2_hardware_gazebo
+Version: 0.2.3
+Cflags: -I/home/tom/catkin_ws/src/mrp2_simulator/mrp2_hardware_gazebo/include
+Libs: -L/home/tom/catkin_ws/devel/lib -lmrp2_hardware_gazebo
+Requires: control_toolbox gazebo_ros_control joint_limits_interface hardware_interface

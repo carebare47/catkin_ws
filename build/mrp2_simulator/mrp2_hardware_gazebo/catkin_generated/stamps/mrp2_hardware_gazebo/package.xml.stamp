@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package>
+  <name>mrp2_hardware_gazebo</name>
+  <version>0.2.3</version>
+  <description>Gazebo plugin of MRP2 robot hardware used in simulation.</description>
+  <maintainer email="akifhno@gmail.com">Akif Hacinecipoglu</maintainer>
+  <license>BSD</license>
+
+  <author email="akifhno@gmail.com">Akif Hacinecipoglu</author>
+  <url type="website">http://wiki.ros.org/mrp2_hardware_gazebo</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>angles</build_depend>
+  <build_depend>control_toolbox</build_depend>
+  <build_depend>hardware_interface</build_depend>
+  <build_depend>joint_limits_interface</build_depend>
+  <build_depend>gazebo_ros_control</build_depend>
+  <build_depend>gazebo</build_depend>
+
+  <run_depend>control_toolbox</run_depend>
+  <run_depend>hardware_interface</run_depend>
+  <run_depend>joint_limits_interface</run_depend>
+  <run_depend>gazebo_ros_control</run_depend>
+  <run_depend>gazebo</run_depend>
+
+  <export>
+    <gazebo_ros_control plugin="${prefix}/plugins/mrp2_hardware_gazebo_plugins.xml"/>
+  </export>
+
+</package>

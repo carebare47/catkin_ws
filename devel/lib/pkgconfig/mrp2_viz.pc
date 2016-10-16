@@ -1,0 +1,8 @@
+prefix=/home/tom/catkin_ws/devel
+
+Name: mrp2_viz
+Description: Description of mrp2_viz
+Version: 0.2.2
+Cflags: 
+Libs: -L/home/tom/catkin_ws/devel/lib 
+Requires: 
